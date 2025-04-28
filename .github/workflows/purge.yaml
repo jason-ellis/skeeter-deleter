@@ -26,7 +26,7 @@ jobs:
         BLUESKY_USERNAME: ${{ secrets.BLUESKY_USERNAME }}
         BLUESKY_PASSWORD: ${{ secrets.BLUESKY_PASSWORD }}
       run: |
-        python skeeter_deleter.py -l 100 -s 2 -d emilygorcenski.com -c 3k2njt2njcr2f -v -y
+        python skeeter_deleter.py -l 100 -s 14 -v -y
 
     ## Various cloud-based archival options here
     ## If you don't want to archive in the cloud, then simply comment these sections out or remove them
